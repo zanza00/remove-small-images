@@ -1,0 +1,25 @@
+
+{
+    "compilerOptions": {
+      "types": [
+        "node"
+      ],
+      "strict": true,
+      "outDir": "build",
+      "sourceMap": true,
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "lib": [
+        "es6",
+        "es7",
+        "es2017"
+      ],
+      "pretty": true
+    },
+    "include": [
+      "src", "typings"
+    ]
+}
