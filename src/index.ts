@@ -1,6 +1,5 @@
 import { TaskEither, taskify, taskEither } from "fp-ts/lib/TaskEither";
 import { array } from "fp-ts/lib/Array";
-import { traverse } from "fp-ts/lib/Traversable";
 import { exec } from "child_process";
 import * as sizeOf from "image-size";
 import * as fs from "fs";
@@ -42,7 +41,7 @@ const getDimensions = taskify(sizeOf);
 const filterOnlyFiles: (a: fs.Dirent[]) => fs.Dirent[] = files =>
   files.filter(file => file.isFile());
 
-const traverseTEA = traverse(taskEither, array);
+const traverseTEA = array.traverse(taskEither);
 
 function main(): void {
   readDir(dir, { withFileTypes: true })
