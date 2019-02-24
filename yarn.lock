@@ -2,7 +2,14 @@
 # yarn lockfile v1
 
 
-"@types/node@^11.9.5":
+"@types/image-size@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@types/image-size/-/image-size-0.7.0.tgz#a785302cdaedad7dfd985c5f2f6f721467b95de9"
+  integrity sha512-WkmNFWsC7NggeNC+2LxFJc6we3PiPf72NJUpezGNPbSe5zZ9sBcscQnSqQjYAyax3QNCyT42kNdAeT2tTvQMcQ==
+  dependencies:
+    "@types/node" "*"
+
+"@types/node@*", "@types/node@^11.9.5":
   version "11.9.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.9.5.tgz#011eece9d3f839a806b63973e228f85967b79ed3"
   integrity sha512-vVjM0SVzgaOUpflq4GYBvCpozes8OgIIS5gVXVka+OfK3hvnkC1i93U8WiY2OtNE4XUWyyy/86Kf6e0IHTQw1Q==
@@ -11,6 +18,11 @@ fp-ts@^1.14.2:
   version "1.14.2"
   resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-1.14.2.tgz#fba81c42d4c1662ef38fd9fddd09ae988c589d53"
   integrity sha512-QatIz/9KZsVsf/VXpzAXC9K2wjVJuT3fHSyIFhSLa8ApmqzcRDxKe0oNv75cY2cObywN5ekzfa3dLFqTJYnf+Q==
+
+image-size@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.7.2.tgz#5014c2c43003020d265801867b8bcf97c4080cf1"
+  integrity sha512-CBmVIFHyDyiWi1U24eNHl8SH0Iir2IgmEv1RwdRVZxWsEbSCvV5b/eXaYP8epOFv2dbw5uNBOrn1Nc5P5KvsUA==
 
 prettier@^1.16.4:
   version "1.16.4"
